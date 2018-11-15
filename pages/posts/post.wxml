@@ -1,6 +1,6 @@
 <view>
   <swiper indicator-dots='true' autoplay='true' interval='3000'>
-    <swiper-item><image src="/images/posts//wx.png"></image></swiper-item>
+    <swiper-item><image src="/images/posts/bl.png"></image></swiper-item>
     <swiper-item><image src="/images/posts/vr.png"></image></swiper-item>
     <swiper-item><image src="/images/posts/iqiyi.png"></image></swiper-item>
   </swiper>
