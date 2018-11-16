@@ -1,4 +1,5 @@
 var local_database = [{
+    postId: 0,
     date: "Sep 18 2016",
     title: "正是虾肥蟹壮时",
     imgSrc: "/images/post/crab.png",
@@ -8,6 +9,7 @@ var local_database = [{
     collection: "96",
   },
   {
+    postId: 1,
     date: "Nov 20 2016",
     title: "比利·林恩的中场故事",
     imgSrc: "/images/post/bl.png",
@@ -17,6 +19,7 @@ var local_database = [{
     collection: 92
   },
   {
+    postId: 2,
     date: "Nov 12 2016",
     title: "当我们在谈论经济学时，我们在谈论什么?",
     imgSrc: "/images/post/sls.jpg",
@@ -26,6 +29,7 @@ var local_database = [{
     collection: 92,
   },
   {
+    postId: 3,
     date: "Nov 20 2016",
     title: "微信·小程序开发工具安装指南",
     imgSrc: "/images/post/wx.png",
@@ -35,6 +39,7 @@ var local_database = [{
     collection: 92,
   },
   {
+    postId: 4,
     date: "Nov 20 2016",
     title: "从视觉到触觉 这款VR手套能给你真实触感",
     imgSrc: "/images/post/vr.png",

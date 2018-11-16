@@ -1,4 +1,4 @@
-@import "/pages/post-item/post-item-template.wxss";
+@import "/pages/posts/post-item/post-item-template.wxss";
 
 swiper {
   width: 100%;
@@ -10,14 +10,4 @@ swiper image {
   height: 500rpx;
 }
 
-.post-container {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20rpx;
-  margin-bottom: 40rpx;
-  background-color: #fff;
-  border-top: 1px solid #ededed;
-  border-bottom: 1px solid #ededed;
-  padding-bottom: 5px;
-}
 
