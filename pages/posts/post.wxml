@@ -1,8 +1,8 @@
 <view>
   <swiper indicator-dots='true' autoplay='true' interval='3000'>
-    <swiper-item><image src="/images/posts/bl.png"></image></swiper-item>
-    <swiper-item><image src="/images/posts/vr.png"></image></swiper-item>
-    <swiper-item><image src="/images/posts/iqiyi.png"></image></swiper-item>
+    <swiper-item><image src="/images/post/bl.png"></image></swiper-item>
+    <swiper-item><image src="/images/post/vr.png"></image></swiper-item>
+    <swiper-item><image src="/images/post/iqiyi.png"></image></swiper-item>
   </swiper>
   
   <block wx:for="{{ post_content }}" wx:for-item="item">
