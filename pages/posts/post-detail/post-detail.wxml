@@ -1,3 +1,18 @@
 <view>
-  <text>this is detail</text>
+  <image src="/images/post/sls.jpg"></image>
+  <view>
+    <image src="/images/avatar/2.png"></image>
+    <text>HYDE</text>
+    <text>发表于</text>
+    <text>五天前</text>
+  </view>
+  <text>这里是一个标题</text>
+  <view>
+    <view>
+      <image src="/images/icon/collection.png"></image>
+      <image src="/images/icon/share.png"></image>
+    </view>
+    <view></view>
+  </view>
+  <text>这里是文章正文！！！！！！！！！</text>
 </view>
