@@ -15,9 +15,11 @@ Page({
     var postsCollected = wx.getStorageSync("post_collected")
     if(postsCollected) {
       var postCollected = postsCollected[postId] 
-      this.setData({
-        collected: postCollected
-      })
+      if (postCollected) {
+        this.setData({
+          collected: postCollected
+        })
+      } 
     } else {
       var postsCollected = {}
       postsCollected[postId] = false
@@ -29,8 +31,12 @@ Page({
   onCollectionTap: function(event) {
     var postsCollected = wx.getStorageSync("post_collected")
     var postCollected = postsCollected[this.data.currentPostId]
+    console.log(postCollected)
     postCollected = !postCollected
     postsCollected[this.data.currentPostId] = postCollected
     wx.setStorageSync("post_collected", postsCollected)
+    this.setData({
+      collected: postCollected
+    })
   }
 })
